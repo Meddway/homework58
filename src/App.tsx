@@ -1,10 +1,11 @@
+import Demonstration from './Demonstration/Demonstration';
 
 function App() {
 
   return (
     <>
-      <div>
-
+      <div className="text-center">
+        <Demonstration/>
       </div>
     </>
   );
