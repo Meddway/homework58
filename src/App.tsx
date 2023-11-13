@@ -2,6 +2,8 @@ import Demonstration from './Demonstration/Demonstration';
 import Alert from './Alert/Alert';
 
 function App() {
+  const closeAlert = () => {
+  };
 
   return (
     <>
@@ -13,6 +15,8 @@ function App() {
         <Alert type="alert alert-secondary"></Alert>
         <Alert type="alert alert-success"></Alert>
         <Alert type="alert alert-danger"></Alert>
+        <Alert type="alert alert-success" onDismiss={closeAlert}>
+        </Alert>
       </div>
     </>
   );
